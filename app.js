@@ -4,7 +4,9 @@ var express = require('express'),
 
 var port=process.env.PORT || 3000;
 
-app.use('/assets',express.static(__dirname+'/public'));
+app.use('/pic', express.static(__dirname + '/image'));
+app.use('/css', express.static(__dirname + '/css'));
+//app.use('/assets',express.static(__dirname+'/public'));
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','ejs');
 app.use('/', function(req,res,next){
