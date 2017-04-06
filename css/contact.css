@@ -1,0 +1,156 @@
+#wrapper
+{
+  width:960px;
+  height: 1100px;
+  margin:0 auto;
+  font-size:13px;
+}
+
+/*body 
+{
+   瀏覽器預設 margin:8px; 先初始化
+  margin: 0;
+  font-size: 100%;
+  background: #ccc;
+}*/
+#header
+{
+    
+    height:60px;
+    width: 960px;
+    margin: 0px auto;    
+    margin-top: 10px;
+} 
+
+#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 960px;
+    height: 60px;
+
+} 
+nav {  
+    width: 960px;  
+    margin: 0 auto;  
+    height:60px;
+} 
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: rgb(255,255,83);
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0.5);
+    color: #fff;  
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+}
+/*.sub
+{    
+    width:inherit;
+    display: none;  /*下拉選單初始先隱藏
+    overflow: hidden;  
+    position: absolute;  
+    font-size:0.8em;
+    background-color: rgb(100,180,255);                               
+}*/
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+
+#firstbox
+{
+
+    background-color: #D9A9F3;
+    width:960px;
+    height:700px;    
+    line-height:700px;
+    
+    margin-top: 10px;
+    
+}
+
+#footer{
+clear:both;
+background-color:#0092C7;
+height:40px;
+text-align:center;
+line-height:40px;
+margin-top: -80px;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+}
+#CM
+{
+  height: 60px;
+  width: 100px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+#send
+{
+  
+  margin: auto; 
+  text-align: center;
+  
+  margin-top: -380px;
+  margin-bottom: 266px;
+  
+  
+}
+#me
+{
+  height: 300px;
+  width: 960px;
+  margin:0 auto;
+}
+
+p
+{
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+#CM2
+{
+  margin-left: 790px;
+  margin-top: 5px;
+}
