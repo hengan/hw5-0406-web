@@ -1,0 +1,267 @@
+#wrapper
+{
+  width:960px;
+  height: 1100px;
+  margin:0 auto;
+  font-size:13px;
+}
+
+
+#header
+{
+    
+    height:60px;
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 10px;
+    
+
+}  
+#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 960px;
+    height: 60px;
+
+} 
+nav {  
+    width: 960px;  
+    margin: 0 auto;  
+    height:60px;
+} 
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: rgb(255,255,83);
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0.5);
+    color: #fff;  
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+}
+
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+#left
+{
+
+    background-color: #80FFFF;
+    width:140px;
+    height:100px;    
+    line-height:100px;    
+    margin-top: 10px;
+    float: left;
+}
+
+#footer{
+clear:both;
+background-color:#0092C7;
+height:40px;
+
+line-height:40px;
+margin-top: 10px;
+text-align:center;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+}
+
+
+#under
+{
+  
+  width: 960px;  
+  height: 860px;
+  margin-top: 10;
+  background-color: #FF8584;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-align:center;
+}
+.abgne_tab {
+  clear: left;
+  width: 900px;
+  margin-top: 10px;
+  margin-left: 30px;
+  
+  height: 800px;
+}
+ul.tabs {
+  width: 905px;
+  height: 50px;
+  
+  border-left: 5px solid  #FF8584;
+  border-top: 20px solid  #FF8584;
+  text-align: center;
+}
+ul.tabs li {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -1px;  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+  border: 5px solid   #FF8584;
+  border-top: 10px;
+  border-left: none;
+  background:#FFAEA4;/*標籤底色*/
+  text-align: center;
+}
+ul.tabs li a {
+  display: block;
+  padding: 0 60px;
+  color:  #00CACA  ;/*標籤字的顏色*/
+  font-size: 16px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+
+}
+ul.tabs li a:hover {
+  background:   #FFAAA8;/*標籤滑過的顏色*/
+  text-align: center;
+}
+ul.tabs li.active  {
+  background: #fff;
+  border-bottom: 1px solid#fff;
+}
+ul.tabs li.active a:hover {
+  background: #fff;
+}
+div.tab_container {
+  clear: left;
+  width: 900px;
+  border: 5px solid #FF8584;
+  height: 750px;
+  border-top: none;
+  background: #FFAEA4;
+}
+div.tab_container .tab_content {
+  padding: 20px;
+}
+div.tab_container .tab_content h2 {
+  margin: 0 0 20px;
+}
+.123
+{
+  text-align: center;
+  
+}
+#CM
+{
+  height: 60px;
+  width: 100px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+.pics1
+{
+  height:220px;
+  width: 220px;
+   margin: 0px auto;
+   float: left;
+   background-color: blue;
+   margin-left: 50px;
+   margin-top: 40px;
+}
+.pics2
+{
+  height:240px;
+  width: 180px;
+   margin: 0px auto;
+   float: left;
+   background-color: blue;
+   margin-left: 30px;
+   margin-top: 100px;
+}
+.pics2in
+{
+  height:90px;
+  width: 180px;
+   margin: 0px auto;
+   
+  text-align:center;
+ 
+
+}
+#picss2
+{
+  margin-top: -80px;
+}
+/*第三個分頁*/
+.pics3
+{
+  height:240px;
+  width: 180px;
+   margin: 0px auto;
+   float: left;
+   background-color: blue;
+   margin-left: 30px;
+   margin-top: 100px;
+}
+.pics3in
+{
+  height:90px;
+  width: 180px;
+   margin: 0px auto;
+   
+  text-align:center;
+  
+}
+#picss3
+{
+  margin-top: -80px;
+}
+
+#CM2
+{
+  margin-left: 780px;
+  margin-top: 5px;
+}
+
+

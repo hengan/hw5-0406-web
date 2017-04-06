@@ -1,0 +1,246 @@
+#wrapper
+{
+  width:960px;
+  height: 1100px;
+  margin:0 auto;
+  font-size:13px;
+}
+
+/*body 
+{
+   瀏覽器預設 margin:8px; 先初始化
+  margin: 0;
+  font-size: 100%;
+  background: #ccc;
+}*/
+#header
+{
+    
+    height:60px;
+    width: 960px;
+    margin: 0px auto;
+    margin-top: 10px;
+}  
+#main_container 
+{  
+    position: fixed;
+    background-color: rgb(255,255,83); 
+    z-index: 999;
+    width: 960px;
+    height: 60px;
+
+} 
+nav {  
+    width: 960px;  
+    margin: 0 auto;  
+    height:60px;
+} 
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition:  .3s background-color ;
+  -webkit-transition: .3s background-color  ;
+  -moz-transition: .3s background-color  ;
+  -ms-transition: .3s background-color  ;
+  -o-transition: .3s background-color  ;
+}
+nav ul
+ {
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color: rgb(255,255,83);
+    text-align: right;
+}
+nav li /*標題選單文字*/
+{
+  font-family: Microsoft JhengHei;
+  width:130px;
+  height: 60px;
+  font-size:1.2em;
+  line-height:60px;
+  text-align: center;
+  display:inline-block;
+}
+nav ul li a:hover 
+{  
+    /*游標滑入<a>的背景顏色*/
+     background: rgba(70,163,255,0.5);
+    color: #fff;  
+}  
+nav ul li a.active 
+{
+    /*被點選時<a>的背景顏色*/  
+    background: rgba(70,163,255,0.8);
+    color: #fff;  
+}
+
+nav li li a 
+{
+    border-bottom:solid 1px white;
+}
+nav li li:last-child a
+{
+    border-bottom:none;
+}
+
+#firstbox
+{
+
+    background-color: #9FE0F6;
+    width:960px;
+    height:300px;    
+    line-height:300px;
+    
+    margin-top: 10px;
+    
+}
+#secondbox
+{
+
+   
+    width:960px;
+    height:300px;    
+    line-height:300px;
+    
+    margin-top: 10px;
+    
+}
+#thirdbox
+{
+
+   
+    width:960px;
+    height:300px;    
+    line-height:300px;
+    
+    margin-top: 10px;
+    
+}
+#footer{
+clear:both;
+background-color:#0092C7;
+height:40px;
+
+line-height:40px;
+margin-top: 10px;
+text-align:center;
+font-family: 'Freckle Face', cursive;
+font-size: 18px;
+
+
+}
+#CM
+{
+  height: 60px;
+  width: 100px;
+  margin:0 auto;
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+}
+.abgne-block-20110806 {
+  width: 500px; /*大圖的寬*/
+  height: 300px;  /*大圖的高*/
+  border: 0px solid #FF828D;
+  background: #ccc;
+  position: relative;
+  overflow: hidden;
+  float: right;
+}
+.abgne-block-20110806 * {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.abgne-block-20110806 ul, .abgne-block-20110806 li {
+  list-style: none;
+}
+.abgne-block-20110806 ul {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  z-index: 9999;
+}
+.abgne-block-20110806 li {
+  float: left;
+  margin-left: 5px;
+}
+.abgne-block-20110806 li a {
+  display: block;
+  width: 20px;  /*小圖的寬*/
+  height: 20px; /*小圖的高*/
+  border: 1px solid #fff;
+  background-color: #FF828D;
+  border-radius:99em;
+}
+.abgne-block-20110806 li a:hover {
+  border: 1px solid #f9f;
+}
+.abgne-block-20110806 li a img {
+  border: none;
+}
+/*第三層的圖*/
+.abgne-block-2011 {
+  width: 500px; /*大圖的寬*/
+  height: 300px;  /*大圖的高*/
+  border: 0px solid #FF828D;
+  background: #ccc;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.abgne-block-2011 * {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.abgne-block-2011 ul, .abgne-block-2011 li {
+  list-style: none;
+}
+.abgne-block-2011 ul {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  z-index: 9999;
+}
+.abgne-block-2011 li {
+  float: left;
+  margin-left: 5px;
+}
+.abgne-block-2011 li a {
+  display: block;
+  width: 20px;  /*小圖的寬*/
+  height: 20px; /*小圖的高*/
+  border: 1px solid #fff;
+  background-color: #9FE0F6;
+  border-radius:99em;
+}
+.abgne-block-2011 li a:hover {
+  border: 1px solid #f9f;
+}
+.abgne-block-2011 li a img {
+  border: none;
+}
+#aaa
+{
+  height: 300px;
+  width: 450px;
+  
+  float: left;
+  
+}
+#aa
+{
+  height: 300px;
+  width: 450px;
+  
+  float: right;
+  
+}
+#CM2
+{
+  margin-left: 770px;
+  margin-top: 5px;
+}
